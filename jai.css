@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(78 10% 7%); /* Background color for the body */
+}
+
+header {
+    background: #333; /* Dark background for the header */
+    color: #138651; /* Text color for the header */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: hsl(0, 75%, 36%); /* Link color in navigation */
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #3f443a; /* Background color for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px hsla(0, 75%, 50%, 0.102); /* Subtle box-shadow */
+}
+
+#about {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    flex: 1 1 calc(33% - 40px);
+    margin: 10px;
+    padding: 20px;
+    background: #fff0187e; /* Background color for project cards */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin-top: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #44ff2b; /* Border color for input fields */
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #dd0e0e; /* Background color for input fields */
+}
+
+#contact form button {
+    margin-top: 20px;
+    padding: 10px;
+    background: hsl(143, 65%, 33%); /* Background color for the button */
+    color: #c50e0e; /* Text color for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #1c50c0; /* Hover background color for the button */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333333; /* Background color for the footer */
+    color: #c50f0f; /* Text color for the footer */
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
